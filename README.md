@@ -12,10 +12,13 @@
 </p>
 
 <p align="center">
-  <strong>Android APK (this fork only):</strong>
-  branch <code>android</code> — unofficial phone/tablet builds, not desktop.
-  <a href="ANDROID.md">ANDROID.md</a> ·
-  <a href="https://github.com/johnrcassidy/solidcraft/releases">APK releases</a>
+  <strong>Android APK (johnrcassidy fork only — not tangency-labs desktop):</strong>
+  branch <code>android</code> · maintainer
+  <a href="https://github.com/johnrcassidy">johnrcassidy</a> ·
+  <strong>shipped:</strong>
+  <a href="https://github.com/johnrcassidy/solidcraft/releases/tag/v0.22.1-android2">0.22.1-android2</a>
+  (<a href="https://github.com/johnrcassidy/solidcraft/releases">all APK releases</a>) ·
+  <a href="ANDROID.md">ANDROID.md</a>
 </p>
 
 <div align="center">
@@ -63,6 +66,7 @@
 - **macOS:** the [disk image][macos-dmg] (Apple silicon and Intel).
 - **Linux:** the [AppImage][linux-appimage], or `sudo snap install solidcraft` ([Snap Store][snap-store]).
 - **Web:** [try it in your browser][web-app], no install.
+- **Android (this fork only):** sideload the [APK from johnrcassidy/solidcraft releases](https://github.com/johnrcassidy/solidcraft/releases/latest) (`0.22.1-android2`, package `io.archipelagos.solidcraft`). Unofficial port; see [ANDROID.md](ANDROID.md). Upstream tangency-labs does not ship this APK.
 
 ARM64 and 32-bit builds, portable zip, .deb, .rpm, Flatpak and the other packages are on the
 [downloads page](docs/downloads.md). The downloads aren't signed yet: on Windows choose
